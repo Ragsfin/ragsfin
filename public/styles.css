@@ -7430,8 +7430,10 @@ section.white-bg {
   background-color: #f5f4f9; }
 
 .button {
-  background: #8262ff;
-  background: linear-gradient(90deg, #8262ff 0%, #5124ff 100%);
+  background: #ff9800;
+  background: linear-gradient(
+90deg
+, #ffc107 0%, #ff9800 100%);
   border-radius: 100px;
   color: #FFFFFF;
   display: block;
@@ -8196,7 +8198,7 @@ margin-left: 0;   }
     max-width: 500px;
     margin: 0 auto 35px auto; }
   #hero h2 {
-    max-width: 500px;
+    max-width: 66%;
     margin: 0 auto 45px auto; }
 
   .hero-wrapper .bg-img-1 {
