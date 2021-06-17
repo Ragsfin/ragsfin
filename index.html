@@ -36,7 +36,7 @@
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <div class="texture-bg hero-wrapper" style="height: 100%;">
+    <div class="texture-bg hero-wrapper">
         <header class="container-fluid container-lg">
             <div class="row">
                 <div class="col-md-4 col-lg-5" style="margin-top: 20px;">
@@ -59,7 +59,7 @@
                                 <i class="fab fa-telegram-plane"></i>
                             </a>
                         </li>
-                       
+
                         <!-- <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">
                             <a href="https://discord.gg/tvH5bMm" target="_blank">
                                 <i class="fab fa-discord"></i>
@@ -126,7 +126,15 @@
                 box-shadow: 0 0.5rem 1rem 0 rgb(44 51 73 / 10%);
             }
 
+
+
             @media screen and (min-width: 320px) {
+                #hero .button-row a {
+                    max-width: 250px;
+                    margin: 0 auto 100px auto;
+                    min-width: 194px;
+                }
+
                 #coval-platform {
                     min-height: 290%;
                 }
@@ -135,8 +143,51 @@
                     display: none;
                 }
             }
-
+            @media screen and (min-width: 320px),
+            screen and (min-height: 550px) {
+                .hero-wrapper {
+                    position: relative;
+                    height: 140%;
+                }
+            }
+            @media screen and (min-width: 375px),
+            screen and (min-height: 667px) {
+                .hero-wrapper {
+                    position: relative;
+                    height: 104%;
+                }
+            }
+            @media screen and (min-width: 375px),
+            screen and (min-height: 551px) {
+                .hero-wrapper {
+                    position: relative;
+                    height: 130%;
+                }
+            }
+        
+            @media screen and (min-width: 414px),
+            screen and (min-height: 736px) {
+                .hero-wrapper {
+                    position: relative;
+                    height: 96%;
+                }
+            }
+        
+            @media screen and (min-width: 425px),
+            screen and (min-height: 551px) {
+                .hero-wrapper {
+                    position: relative;
+                    height: 125%;
+                }
+            }
             @media screen and (min-width: 375px) {
+                #hero .button-row a {
+                    text-align: left;
+                    padding-left: 2em;
+                    width: 188px;
+                    margin-top: -17px;
+                }
+
                 #coval-platform {
                     min-height: 260%;
                 }
@@ -219,11 +270,10 @@
                 designed
             </h2>
 
-            <!-- <div class="button-row">
-                <a data-aos="fade-up" data-aos-delay="600"
-                    href="#"
-                    class="button arrow aos-init aos-animate" target="_blank"> Buy $RAGS</a>
-            </div> -->
+            <div class="button-row">
+                <a href="#" class="button arrow aos-init aos-animate"
+                    target="_blank"> Buy $RAGS</a>
+            </div>
         </section>
 
     </div>
@@ -291,50 +341,50 @@
     </section>
 
 
-        <section id="coval-benefits" class="section">
-            <div class="container">
-                <h1 style="width: 100%; margin-bottom: 5px;" data-aos="fade-right" data-aos-offset="200"
-                    class="aos-init mb-3">What is <span>RAGS</span></h1>
-                <div class="row" style="overflow-x: hidden">
-                    <div class="col-md-4 col-sm-6" data-aos="fade-right" data-aos-offset="200" class="aos-init">
-                        <div class="coval-benefits-box">
-                            <i class="fas fa-tint"></i>
-                            <h4>Community Powered</h4>
-                            <p>
-                                <span class="spn-gold">RAGS</span> is fully decentralized and owned by its fun, vibrant
-                                community. We welcome and
-                                embrace diverse perspectives to build <span class="spn-gold">RAGS</span> into the best
-                                community in crypto.
-                            </p>
-                        </div>
+    <section id="coval-benefits" class="section">
+        <div class="container">
+            <h1 style="width: 100%; margin-bottom: 5px;" data-aos="fade-right" data-aos-offset="200"
+                class="aos-init mb-3">What is <span>RAGS</span></h1>
+            <div class="row" style="overflow-x: hidden">
+                <div class="col-md-4 col-sm-6" data-aos="fade-right" data-aos-offset="200" class="aos-init">
+                    <div class="coval-benefits-box">
+                        <i class="fas fa-tint"></i>
+                        <h4>Community Powered</h4>
+                        <p>
+                            <span class="spn-gold">RAGS</span> is fully decentralized and owned by its fun, vibrant
+                            community. We welcome and
+                            embrace diverse perspectives to build <span class="spn-gold">RAGS</span> into the best
+                            community in crypto.
+                        </p>
                     </div>
-                    <div class="col-md-4 col-sm-6 aos-init" data-aos="fade-left">
-                        <div class="coval-benefits-box">
-                            <i class="fas fa-chart-bar"></i>
-                            <h4>Instant Rewards</h4>
-                            <p>Every transaction of <span class="spn-gold">RAGS</span> redistributes tokens to hodlers
-                                and adds liquidity to
-                                PancakeSwap.
-                            </p>
-                        </div>
+                </div>
+                <div class="col-md-4 col-sm-6 aos-init" data-aos="fade-left">
+                    <div class="coval-benefits-box">
+                        <i class="fas fa-chart-bar"></i>
+                        <h4>Instant Rewards</h4>
+                        <p>Every transaction of <span class="spn-gold">RAGS</span> redistributes tokens to hodlers
+                            and adds liquidity to
+                            PancakeSwap.
+                        </p>
                     </div>
-                    <div class="col-md-4 col-sm-6 aos-init" data-aos="fade-left">
-                        <div class="coval-benefits-box">
-                            <i class="fas fa-book"></i>
-                            <h4>Secure & Safe</h4>
-                            <p>
-                                <span class="spn-gold">RAGS</span> is a fair launch token. Instead of a pre-sale (where
-                                insiders are favored at a low
-                                price), the token was listed immediately on PancakeSwap for the community to
-                                participate. Ownership has been renounced and liquidity is locked.
-                            </p>
-                        </div>
+                </div>
+                <div class="col-md-4 col-sm-6 aos-init" data-aos="fade-left">
+                    <div class="coval-benefits-box">
+                        <i class="fas fa-book"></i>
+                        <h4>Secure & Safe</h4>
+                        <p>
+                            <span class="spn-gold">RAGS</span> is a fair launch token. Instead of a pre-sale (where
+                            insiders are favored at a low
+                            price), the token was listed immediately on PancakeSwap for the community to
+                            participate. Ownership has been renounced and liquidity is locked.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-       
-        <!-- <section id="coval-quote" class="section aos-init" data-aos="fade-up-right" data-aos-offset="120" data-aos-duration="700">
+        </div>
+    </section>
+
+    <!-- <section id="coval-quote" class="section aos-init" data-aos="fade-up-right" data-aos-offset="120" data-aos-duration="700">
             <div class="container">
                 <div class="coval-logo">
                     <img src="">
@@ -472,13 +522,13 @@
             <div class="row footer-wrapper">
                 <div class="col-12" style="    text-align: center;">
                     <div class="logo-wrapper">
-                       
+
                         <img src="images/logo-normal.png" alt="rags logo">
-                        
+
                     </div>
                 </div>
             </div>
-      
+
             <p class="copyright text-center">© Copyright 2021. All Rights Reserved ®</p>
             <!-- <ul class="social-links">
                 <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
