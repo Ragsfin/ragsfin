@@ -30,6 +30,16 @@
     <meta name="description"
         content="Circuits of Value and Emblem Vault have developed an entirely new asset class. Composite Tokens. Entire wallets inside a tradable token.">
     <meta name="”robots”" content="index, follow">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+          $(document).ready(function () {
+            $("#downloadLink").click(function (e) {
+                e.preventDefault();
+                window.location.href 
+                    = "https://drive.google.com/file/d/19rnL-0bvuys7qBBaKgJq2UJzvegsdFmQ/view?usp=sharing";
+            });
+        });
+    </script>
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
@@ -76,6 +86,11 @@
             </div>
         </header>
         <style>
+
+            #downloadLink{
+                color: #ffc107;
+                cursor: pointer;
+            }
             #VideoBG {
                 position: absolute;
                 right: 0;
@@ -86,6 +101,7 @@
                 opacity: 0.05;
                 z-index: -1;
             }
+
 
             .ul-phase {
                 list-style: none;
@@ -510,7 +526,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer style="text-align: center;">
         <div class="container-fluid">
             <div class="row footer-wrapper">
                 <div class="col-12" style="    text-align: center;">
@@ -521,7 +537,7 @@
                     </div>
                 </div>
             </div>
-            
+            <a id="downloadLink" target="_blank">$RAGS White paper</a>
             <p class="copyright text-center">© Copyright 2021. All Rights Reserved ®</p>
             <!-- <ul class="social-links">
                 <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
